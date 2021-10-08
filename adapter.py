@@ -37,7 +37,7 @@ class Adapter(ElectricThermometer, Thermometer):
 
 def look_at_the_thermometer(target: "Thermometer") -> None:
     """
-    Клиентский класс поддерживающий ртутный градусник по цельсию.
+    Клиентский код поддерживающий ртутный градусник по цельсию.
     """
     
     temperature = target.request()
